@@ -40,7 +40,12 @@ if (firstTime) {
 		body.style.backgroundImage = `url("./images/${img}")`;
 	}
 	else if (dayOrNight() === 'night') {
-		body.style.backgroundImage = 'url("./images/night.jpg")';
+		const img = choice([
+			'night.jpg',
+			'night-2.jpg',
+			'night-3.jpg'
+		]);
+		body.style.backgroundImage = `url("./images/${img}")`;
 	}
 	else {
 		const img = choice([
