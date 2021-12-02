@@ -154,7 +154,7 @@ function dayOrNight() {
 	if (hours >= 5 && hours <= 12) {
 		return 'day';
 	}
-	if (hours >= 20 && hours <= 5) {
+	if (hours >= 17 && hours <= 5) {
 		return 'night';
 	}
 	else {
