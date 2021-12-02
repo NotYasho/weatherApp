@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel = "icon" href = 
+	"images/logo.png" 
+			type = "image/x-icon">
+</head>
+<body>
+	<div class="container">
+	<h1>Get Started!
+	<h2></h2>
+	</div>
+	<div class="app-wrap">
+		<header>
+		<input type="text" autocomplete="off" class="search-box" placeholder="Search for a  location..." maxlength="61">
+		<button id="submit" onclick="getWeather()" style="visibility: hidden;"></button>
+	</header>
+	<main>
+		<div class="temp"><span></span></div>
+		<section class="location">
+			<div class="city"></div>
+			<div class="date"></div>
+		</section>
+			<div class="weather"></div>
+			<div class="high-low"></div>
+	</main>
+	</div>	
+<script src="main.js"></script>
+</body>
+</html>
