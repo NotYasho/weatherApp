@@ -150,7 +150,7 @@ function choice(array) {
 
 function dayOrNight() {
 	const currentTime = new Date();
-	const hours = 20;
+	const hours = currentTime.getHours();
 	if (hours >= 5 && hours <= 12) {
 		return 'day';
 	}
