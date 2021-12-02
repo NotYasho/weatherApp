@@ -65,6 +65,7 @@ inputBox.addEventListener('keyup', function(event) {
 
 function getWeather() {
 	// Please don't steal plsplspls
+	// Get your api key from https://home.openweathermap.org/users/sign_up
 	const apiKey = "b37dcd068f23d5bbd5e055ba7392243a";
 	if (inputBox.value == '') {
 		inputBox.classList.add('shake');
@@ -80,7 +81,7 @@ function getWeather() {
 				console.log(data.cod);
 				if (data.cod === '404') {
 					inputBox.value = null;
-					inputBox.placeholder = 'City not found';
+					inputBox.placeholder = 'City not found :(';
 					document.documentElement.style.setProperty('--placeholder', '#b0003ba6');
 					inputBox.style.border = '#871e41 1px solid';
 					return;
