@@ -11,6 +11,8 @@ weather = document.querySelector('.weather');
 maxMin = document.querySelector('.high-low');
 header = document.querySelector('header');
 
+console.log("Time:", dayOrNight())
+
 if (firstTime) {
 	const cities = [
 		'London',
