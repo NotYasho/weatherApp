@@ -57,6 +57,7 @@ inputBox.addEventListener('keyup', function(event) {
 });
 
 function getWeather() {
+	// Please don't steal plsplspls
 	const apiKey = "b37dcd068f23d5bbd5e055ba7392243a";
 	if (inputBox.value == '') {
 		inputBox.classList.add('shake');
