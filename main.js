@@ -66,7 +66,7 @@ inputBox.addEventListener('keyup', function(event) {
 function getWeather() {
 	// Please don't steal plsplspls
 	// Get your api key from https://home.openweathermap.org/users/sign_up
-	const apiKey = "yourApiKeyHere";
+	const apiKey = "5faccf0891ea735d88aa02c5dd78636b";
 	if (inputBox.value == '') {
 		inputBox.classList.add('shake');
 		setTimeout(function() {
