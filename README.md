@@ -2,4 +2,4 @@
 
 Powered by [OpenWeatherMap API](https://openweathermap.org/api).
 
-Visit the site on [Github Pages](https://yasho022.github.io/weatherApp/)
+Visit the site on [Github Pages](https://notyasho.github.io/weatherApp/)
